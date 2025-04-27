@@ -1,0 +1,23 @@
+table{
+   font-size: 28px;
+   border-spacing: 18px;
+}
+
+
+#img{
+   margin-top: 50px;
+}
+header img{
+   height: 55px;
+   width: 55px;
+   margin-left: 20px;
+   }
+header{
+   color: #f3cb7f;
+   font-size: 55px;
+   padding-left:15px;
+   }
+nav{
+   
+   font-size:25px;
+}

@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style3.css">
+        <script type="text/javascript"src="E:\mine\validate.js"></script>
+        <style>
+            .error { color: red; font-size: 18px; }
+        </style>
+    </head>
+    <body>
+        <center>  
+        <table>
+             
+        <div class="form">
+        <form onsubmit="return validateForm()">
+        <h1 style="text-align: center;">Login</h1>
+        <label for="username">Username:</label>
+        <input type="text" id="username"></br>
+        <span class="error" id="username-error"></span><br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email"></br>
+        <span class="error" id="email-error"></span><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password"></br>
+        <span class="error" id="password-error"></span><br><br>
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password"></br>
+        <span class="error" id="confirm-password-error"></span><br><br>
+        <button type="submit">Submit</button>
+        </div>  
+    </form>
+    </center>
+    </table>
+</body>
+</html>
+
+

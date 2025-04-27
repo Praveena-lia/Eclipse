@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'my font2'; 
+    src: url("C:/Users/Priya/Downloads/Qenliago Font/my font2.woff2.otf") format('woff2'),
+         url('C:/Users/Priya/Downloads/Qenliago Font/my font2.woff.otf') format('woff'); 
+}
+
+#head{
+    font-family:'my font2';
+    font-size: 55px!important;
+}
+#top{
+    background-color: rgb(249,226,213);
+    height: 30px;
+    width: 100%;
+    
+}  
+#head img{
+    height: 55px;
+    width: 55px;
+    margin-left: 20px;
+    }
+#head{
+    color: #f2d39a;
+    font-size: 35px;
+    padding-left:15px;
+    }
+#one h3{
+    color: black;font-size: 25px;text-align: center;
+}
+
+
+#container {
+    width: 100%; 
+    height: 800px; 
+    background-image: url("E:/extrrior.1.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top:0px;
+
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-nav {
+    flex: 1;
+}
+.left-nav ul li {
+    list-style:none;
+    font-size: 35px;
+}
+.left-nav ul li a{
+    font-size: 35px;
+       
+       color: #f2d39a;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.right-nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.right-nav li {
+    margin-left: 10px;
+    padding:10px
+}
+.right-nav ul li a{
+    font-size: 35px;
+       color: #f2d39a;
+}
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+#footer{
+    font-size:25px !important;
+    padding-right: 5px;
+}
+
+
+
+
+

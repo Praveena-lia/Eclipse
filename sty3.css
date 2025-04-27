@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'my font2';
+    src: url("C:/Users/Priya/Downloads/Qenliago Font/my font2.woff2.otf") format('woff2'), 
+         url('C:/Users/Priya/Downloads/Qenliago Font/my font2.woff.otf') format('woff'); 
+}
+header{
+    font-family:'my font2';
+    font-size: 55px!important;
+    color: #f2d39a;
+    padding-left:15px;
+}
+header img{
+        height: 55px;
+        width: 55px;
+        margin-left: 20px;
+        margin-top: 20px;
+}
+#top{
+    background-color: rgb(249,226,213);
+    height: 30px;
+    width: 100%;
+}  
+nav ul{
+    list-style: none;
+
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: medium;
+    padding-right:70px;
+    position:relative;
+    left: 1000px;
+    bottom:65px;
+    font-size: 35px;
+    color:black
+}
+nav ul li a:hover{
+    color:rgb(163, 65, 255);
+    transition: color 0.3s ease-in-out;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: #f8f8f8;
+}
+
+#dining {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.box {
+    background: #ffdab9;
+    color:black;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.box:hover {
+    transform: translateY(-19px);
+}
+.book-now {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 30px;
+    background-color: #2c3e50;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.book-now:hover {
+    background-color:rgb(111, 156, 240);
+}
+#footer{
+    font-size:25px !important;
+    padding-right: 5px;
+    
+}
+
+

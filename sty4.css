@@ -1,0 +1,36 @@
+
+body {
+    font-family: 'Georgia', serif;
+    background: #f8f0e3;
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    width: 50%;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #8b5e3b;
+}
+select, input, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+button {
+    background: #8b5e3b;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #8b5e3b;
+}

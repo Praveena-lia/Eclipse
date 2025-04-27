@@ -1,0 +1,55 @@
+
+<head>
+    <link rel="stylesheet" href="sty4.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Eclipse Hotel Room Booking</h1>
+        <label for="room-type">Select Room Type:</label>
+        <select id="room-type">
+            <option value="deluxe" data-price="500">Deluxe - $500</option>
+            <option value="executive" data-price="350">Executive - $350</option>
+            <option value="junior" data-price="200">Junior - $200</option>
+        </select>
+        <label for="check-in">Check-in Date:</label>
+        <input type="date" id="check-in">
+        <label for="check-out">Check-out Date:</label>
+        <input type="date" id="check-out">
+        <button onclick="bookRoom()">Book Room</button>
+        <p class="result" id="room-result"></p>
+    </div><div class="container" style="margin-top: 20px;">
+    <h1>Eclipse Dining Booking</h1>
+    <label for="dining-option">Select Dining Option:</label>
+    <select id="dining-option">
+        <option value="undersea" data-price="150">Undersea - $150</option>
+        <option value="fine" data-price="100"> Fine- $100</option>
+        <option value=" rooftop" data-price="250">Rooftop - $250</option>
+    </select>
+    <button onclick="bookDining()">Book Dining</button>
+    <p class="result" id="dining-result"></p>
+</div>
+
+<script>
+    function bookRoom() {
+        let roomSelect = document.getElementById("room-type");
+        let roomType = roomSelect.value;
+        let price = roomSelect.options[roomSelect.selectedIndex].getAttribute("data-price");
+        let checkIn = document.getElementById("check-in").value;
+        let checkOut = document.getElementById("check-out").value;
+        if (checkIn && checkOut) {
+            document.getElementById("room-result").innerText = `You have booked a ${roomType} room from ${checkIn} to ${checkOut} for $${price} per night.`;
+        } else {
+            document.getElementById("room-result").innerText = "Please select check-in and check-out dates.";
+        }
+    }
+    
+    function bookDining() {
+        let diningSelect = document.getElementById("dining-option");
+        let diningType = diningSelect.value;
+        let price = diningSelect.options[diningSelect.selectedIndex].getAttribute("data-price");
+        document.getElementById("dining-result").innerText = `You have booked a ${diningType} dining experience for $${price}.`;
+    }
+</script>
+
+</body>
+</html>
